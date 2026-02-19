@@ -3,6 +3,7 @@ description: "GitHub Agentic Workflow Test"
 name: "Agentic Workflow Test"
 on:
   workflow_dispatch:
+engine: codex
 safe-outputs:
   create-issue:
     expires: 2d
